@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main  # Change this to your main branch name
-      - develop  # Optionally add other branches to trigger the workflow
+      - dev  # Optionally add other branches to trigger the workflow
 
 jobs:
   code-quality:
