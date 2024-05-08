@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main  # Change this to your main branch name
-      - develop  # Optionally add other branches to trigger the workflow
+      - dev  # Optionally add other branches to trigger the workflow
 
 jobs:
   code-quality:
@@ -20,9 +20,6 @@ jobs:
         with:
           php-version: '7.4'
           extensions: mbstring, zip, curl  # Add necessary PHP extensions
-
-      - name: Install Composer dependencies
-        run: composer install
 
       - name: Install WordPress Coding Standards
         run: npm install --global @wordpress/coding-standards
