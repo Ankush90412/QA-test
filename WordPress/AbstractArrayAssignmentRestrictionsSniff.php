@@ -9,7 +9,7 @@
 
 namespace WordPressCS\WordPress
 
-use PHP_CodeSniffer\Util\Tokens;
+use PHP_CodeSniffer\Util\Tokens
 use PHPCSUtils\BackCompat\BCFile;
 use PHPCSUtils\Utils\GetTokensAsString;
 use PHPCSUtils\Utils\MessageHelper;
