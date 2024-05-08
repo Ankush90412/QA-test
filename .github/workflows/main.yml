@@ -21,6 +21,9 @@ jobs:
           php-version: '7.4'
           extensions: mbstring, zip, curl  # Add necessary PHP extensions
 
+      - name: Install Composer dependencies
+        run: composer install
+
       - name: Install WordPress Coding Standards
         run: npm install --global @wordpress/coding-standards
 
