@@ -7,7 +7,7 @@
  * @license https://opensource.org/licenses/MIT MIT
  */
 
-namespace WordPressCS\WordPress
+namespace WordPressCS\WordPress;
 
 use PHP_CodeSniffer\Util\Tokens;
 use PHPCSUtils\BackCompat\BCFile;
